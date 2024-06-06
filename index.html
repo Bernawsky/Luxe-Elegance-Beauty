@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Lux Elegance Beauty</title>
+    <link rel="icon" href="img/Favi icon.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <header id="header">
+        <div class="logo">
+            <img src="img/LOGO.png" alt="Lux Elegance Beauty">
+        </div>
+
+        <div class="linksBtn" id="links">
+            <a onclick="closeLink()" id="link" href="#home">Home</a>
+            <a onclick="closeLink()" id="link" href="#sobre">Sobre</a>
+            <a onclick="closeLink()" id="link" href="#projetos">Projetos</a>
+            <a onclick="closeLink()" id="link" href="#contato">Contato</a>
+        </div>
+
+        <div class="background-menu" id="menu">
+            <div title="Menu" class="icon-1" id="barras">
+                <i onclick="openMenu()" class="fa-solid fa-bars"></i>
+            </div>
+            <div title="Fechar" class="icon-2" id="sair">
+                <i onclick="closeMenu()" class="fa-solid fa-x"></i>
+            </div>
+        </div>
+
+    </header>
+
+    <section id="home">
+        <div class="principal">
+            <img src="img/Foto principal.png" alt="Lux Elegance Beauty">
+            <br><br>
+        </div>
+
+        <div class="sobre" id="sobre">
+            <h2>Quem somos?</h2><br>
+            <p>
+                Nós temos como propósito, valorizar a beleza que já existe em cada cliente, proporcionando momentos
+                únicos e empoderamento sem perder a elegância. Além disso, buscamos inovar constantemente, oferecendo
+                produções de alta qualidade que atendam às diversas necessidades e preferências das nossas clientes.
+                Priorizando o bem-estar, a autoestima, a confiança e autenticidade.
+            </p>
+        </div>
+    </section>
+
+    <section id="projetos">
+        <div class="projetos">
+            <div class="projeto">
+                <img src="img/olho aberto 1.jpg" alt="Fox Eyes">
+                <div class="detalhe">
+                    <h2>Fox Eyes</h2><br>
+                    <p>Ideal para eventos noturnos. Inspirado nos olhos de raposa, essa técnica deixa o olhar
+                        marcante, elegante e sofisticado, com um ar de mistério.
+                    </p>
+                </div>
+            </div>
+
+            <div class="projeto" id="reverse">
+                <div class="detalhe">
+                    <h2>Degradê esfumado</h2><br>
+                    <p>Pode ser usada para dia ou noite, dependendo da intensidade das cores usadas.
+                        Proporciona profundidade e dimensão ao olhar.
+                    </p>
+                </div>
+                <img src="img/olho aberto 2.jpg" alt="Degradê esfumado">
+            </div>
+
+            <div class="projeto">
+                <img src="img/olho aberto 3.jpg" alt="Maquiagem glow">
+                <div class="detalhe">
+                    <h2>Maquiagem glow</h2><br>
+                    <p>Ideal para eventos diurnos, essa técnica foca em realçar a beleza natural criando um
+                        visual radiante.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="contato" id="contato">
+            <a target="_blank" href="https://maps.app.goo.gl/QDPzrBVoLg3vmx6p7"><i class="fa-solid fa-location-dot"></i><br>Localização<br><span>Petrolina de Goiás - GO</span></a>
+            <a target="_blank" href="https://mail.google.com/mail/u/0/#inbox?compose=https://mail.google.com/mail/u/0/#inbox?compose=CllgCJlKnNwSdJCwdmVHtsnlvbNKnGWgJMgcxGzDcPPwFfVrzQPpKKMTggkcQvBRqgPfTxKfGkg"><i class="fa-solid fa-envelope"></i><br>Email<br><span>luxelegance.beauty@outlook.com</span></a>
+            <a id="phone"><i class="fa-solid fa-phone"></i><br>Telefone<br><span>62 8510-9769</span></a>
+        </div>
+        <div class="redes">
+            <a target="_self" href="https://www.instagram.com/_ana.larissa01?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a target="_self" href="https://www.facebook.com/analarissa.ferreiraalmeida?mibextid=ZbWKwL" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+            <a target="_self" href="https://wa.me/5562985109769" class="whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    </section>
+
+    <footer>
+        <h4>Todos os diretos são reservados, 2024 © <span id="nome">Lux Elegance Beauty</span></h4>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
